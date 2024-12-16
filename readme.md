@@ -2,7 +2,28 @@
 
 Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun tokens. Designed to excel on the Solana blockchain, Sfupu detects new liquidity pools, executes trades with precision, and optimizes profits using customizable strategies.
 
-Key Features:
+---
+
+## Why Choose Sfupu Pump Fun Sniper Bot?
+
+Lightning-Fast Execution: Outperform competitors with advanced liquidity pool detection and trade execution.
+
+Customizable Strategies: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
+
+Beginner-Friendly Setup: Quick and simple installation for users new to automated trading.
+
+Advanced Analytics: Bonding curve monitoring and market cap analysis for expert-level insights.
+
+Completely Free: No hidden fees or charges—profits are 100% yours.
+
+Community-Driven Development: An open-source model ensures transparency, regular updates, and ongoing improvements from the community.
+
+
+Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun token opportunities.
+
+---
+
+# Key Features:
 
 Token Sniping: Automatically detects and buys new Pump.fun tokens with favorable bonding curves.
 
@@ -20,25 +41,6 @@ Unlike other bots, Sfupu is continuously updated for speed, reliability, and pro
 
 ---
 
-Why Choose Sfupu Pump Fun Sniper Bot?
-
-Lightning-Fast Execution: Outperform competitors with advanced liquidity pool detection and trade execution.
-
-Customizable Strategies: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
-
-Beginner-Friendly Setup: Quick and simple installation for users new to automated trading.
-
-Advanced Analytics: Bonding curve monitoring and market cap analysis for expert-level insights.
-
-Completely Free: No hidden fees or charges—profits are 100% yours.
-
-Community-Driven Development: An open-source model ensures transparency, regular updates, and ongoing improvements from the community.
-
-
-Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun token opportunities.
-
-
----
 
 Features in Detail
 
