@@ -92,43 +92,40 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 ---
 
 
-Steps to Install
+# 2. Steps to Install
 
 1. Clone the repository:
 
-git clone https://github.com/Diveinprogramming/sfupu-trading-bot.git
+```git clone https://github.com/Sfupu/Solana-Pump-Fun-Sniper-Bot.git```
 
 
-2. Navigate to the bot directory:
+3. Navigate to the bot directory:
 
-cd sfupu-trading-bot
+```cd Solana-Pump-Fun-Sniper-Bot```
 
 
 3. Install dependencies:
 
-npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver nodemailer fs bs58 blessed blessed-contrib
+```sh npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver nodemailer fs bs58 blessed blessed-contrib```
 
 
 4. Set up environment variables:
 Rename .env.example to .env and configure:
 
-SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json  
-MINIMUM_BUY_AMOUNT=0.015  
-MAX_BONDING_CURVE_PROGRESS=10  
-SELL_BONDING_CURVE_PROGRESS=15
+```SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json MINIMUM_BUY_AMOUNT=0.015 MAX_BONDING_CURVE_PROGRESS=10 SELL_BONDING_CURVE_PROGRESS=15```
 
 
 5. Configure Solana CLI:
 
-solana config set --url https://api.mainnet-beta.solana.com  
-solana config set --keypair /path/to/your/solana/wallet.json
+```sh solana config set --url https://api.mainnet-beta.solana.com solana config set --keypair /path/to/your/solana/wallet.json```
 
 
 6. Start the bot:
 
-node main.mjs
+```node main.mjs```
 
 
+7. Enjoy Profits
 
 
 ---
