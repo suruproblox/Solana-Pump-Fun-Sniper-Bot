@@ -2,6 +2,7 @@
 
 Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun tokens. Designed to excel on the Solana blockchain, Sfupu detects new liquidity pools, executes trades with precision, and optimizes profits using customizable strategies.
 
+![](sfupu.png)
 
 **Initial Buy:** The bot scrapes pump.fun to identify new token pairs with favorable bonding curves.
 
@@ -31,6 +32,9 @@ Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun toke
 Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun token opportunities.
 
 
+![](ui.png)
+
+
 ---
 
 
@@ -44,6 +48,9 @@ It sells 50% of the tokens at the first 25% increase and 75% of the remaining to
 **Bonding Curve:** The bot will sell 75% of the tokens if the bonding curve reaches a critical level and keep 25% as a moon bag.
 
 **Timing:** The bot resets the timer if the price goes up and monitors the trade for a set period, adjusting its actions based on market conditions.
+
+**Example Snipe**
+![](snipe.png)
 
 Unlike other bots, Sfupu is continuously updated for speed, reliability, and profitability. As a 100% free and open-source bot, it encourages collaboration to shape the future of Solana token trading.
 
@@ -70,7 +77,7 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 
 ---
 
-## Installation
+# Installation
 
 ## 1. Prerequisites
 
@@ -92,7 +99,7 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 ---
 
 
-# 2. Steps to Install
+## 2. Steps to Install
 
 1. Clone the repository:
 ```git clone https://github.com/Sfupu/Solana-Pump-Fun-Sniper-Bot.git```
@@ -132,6 +139,9 @@ node main.mjs
 
 **Sell All Tokens:**
 node sell.js
+
+
+![](preview.png)
 
 
 ---
