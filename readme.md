@@ -78,6 +78,7 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 ---
 
 # Installation
+*(You can always put this Readme File into ChatGPT & ask for a Detailed Step-by-Step Installation Tutorial From Scratch if you're new to installing bots.)*
 
 ## 1. Prerequisites
 
