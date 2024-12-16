@@ -1,41 +1,100 @@
-# Sfupu: Solana Pump Fun Sniper Bot – Free and Open Source
+## Sfupu: Solana Pump Fun Sniper Bot – Fast, Free & Open Source Automated Trading Bot
 
-Sfupu is the ultimate Solana trading bot designed specifically for Pump.fun tokens on the Solana blockchain. This open-source tool automates token sniping, bonding curve analysis, and market monitoring to maximize profits in the Pump Fun ecosystem. Whether you're a developer, trader, or blockchain enthusiast, Sfupu is the best solution for anyone looking to automate Solana trading and snipe Pump Fun tokens.
+Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun tokens. Designed to excel on the Solana blockchain, Sfupu detects new liquidity pools, executes trades with precision, and optimizes profits using customizable strategies.
+
+Key Features:
+
+Token Sniping: Automatically detects and buys new Pump.fun tokens with favorable bonding curves.
+
+Profit-Taking: Customizable thresholds to sell at 25% and 50% profit levels.
+
+Stop Loss: Protect investments with an automatic stop-loss at a 10% drop.
+
+Moonbag Management: Keep a percentage of tokens for future gains after selling.
+
+Bonding Curve Logic: Tracks market cap and bonding curve progress for strategic decision-making.
+
+
+Unlike other bots, Sfupu is continuously updated for speed, reliability, and profitability. As a 100% free and open-source bot, it encourages collaboration to shape the future of Solana token trading.
 
 
 ---
 
-What Sfupu Offers
+Why Choose Sfupu Pump Fun Sniper Bot?
 
-Automated Token Sniping: Automatically detect and trade new Pump.fun tokens as soon as liquidity is added to new pools.
-Customizable Trading Strategies: Set your own profit-taking and stop-loss thresholds to match your trading goals.
-Optimized for Speed and Efficiency: Trade faster than competitors by leveraging bonding curve analysis and market cap monitoring.
-Beginner & Pro Friendly: The bot is designed for both beginners and experienced traders looking to trade Pump Fun tokens efficiently.
-Open Source Collaboration: Fully open-source and invites the community to contribute to its growth, ensuring transparency and constant improvements.
+Lightning-Fast Execution: Outperform competitors with advanced liquidity pool detection and trade execution.
 
-Free & Open Source: Sfupu is free to use, and its code is fully transparent for auditing, testing, and expansion by the community.
+Customizable Strategies: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
+
+Beginner-Friendly Setup: Quick and simple installation for users new to automated trading.
+
+Advanced Analytics: Bonding curve monitoring and market cap analysis for expert-level insights.
+
+Completely Free: No hidden fees or charges—profits are 100% yours.
+
+Community-Driven Development: An open-source model ensures transparency, regular updates, and ongoing improvements from the community.
+
+
+Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun token opportunities.
 
 
 ---
 
-Features
+Features in Detail
 
-Token Monitoring: Automatically scans and identifies new token pairs with favorable bonding curves and market cap progress.
+1. Profit-Taking Strategy:
 
-Customizable Parameters: Tailor your profit-taking and stop-loss thresholds for optimized trade execution.
+The bot sells 50% of tokens after a 25% price increase.
 
-Automated Profit-Taking & Stop-Loss: Set automated actions to take profits at the right time and minimize losses with stop-loss rules.
+It sells 75% of the remaining tokens after another 25% price increase.
 
-Bonding Curve Analysis: The bot uses advanced bonding curve logic to analyze token prices and execute trades for the best returns.
 
-Moonbag Management: Keep a portion of your trades in a moonbag to capture further price increases while securing profits.
 
-Real-Time Monitoring: Stay updated on market changes, track trades, and make adjustments as needed to maximize your profit potential.
+2. Stop-Loss Protection:
 
-Beginner-Friendly Setup: Designed to be user-friendly for novice traders with simplified installation steps, but also offers advanced features for pro traders.
+Automatically sells all tokens if the market cap falls by 10%.
 
-Open Source Transparency: The code is fully accessible and can be modified or audited to fit your specific needs.
 
+
+3. Bonding Curve Analysis:
+
+Tracks token price progress along the bonding curve.
+
+Sells 75% of holdings if the bonding curve hits a critical level, while keeping 25% as a moonbag for future gains.
+
+
+
+4. Timer Logic:
+
+Resets monitoring timers when price increases, ensuring adaptive trade execution.
+
+
+
+5. Real-Time Monitoring:
+
+Continuously tracks market cap and bonding curve updates to optimize decisions.
+
+
+
+
+
+---
+
+Why Sfupu is Free & Open Source
+
+Sfupu is open-source because we believe in building tools for the community, by the community. Here’s why:
+
+1. Encouraging Collaboration: Traders and developers can contribute to refine and expand Sfupu’s functionality.
+
+
+2. Fostering Innovation: A community-driven approach ensures Sfupu evolves to meet the latest trends and challenges in token trading.
+
+
+3. Laying the Foundation for the Future: Open-source beginnings pave the way for potential premium tools or official applications tailored for professional users.
+
+
+
+Your feedback, contributions, and testing are invaluable to improving Solana trading automation.
 
 
 ---
@@ -44,34 +103,56 @@ Installation
 
 Prerequisites
 
-Solana-Compatible Wallet: Such as Phantom or Solflare
+1. Wallet: A Solana-compatible wallet (e.g., Phantom, Solflare) with SOL, USDC, or WSOL.
 
-Node.js: Install from nodejs.org
 
-Solana CLI: Set up the Solana CLI for wallet interaction
+2. Node.js: Install Node.js from nodejs.org.
 
-Sufficient SOL Balance: Keep enough SOL to cover transaction fees.
 
+3. Solana CLI: Ensure the Solana CLI is configured for blockchain interaction.
+
+
+4. SOL Balance: Keep at least 10x your trade amount in SOL to avoid transaction disruptions.
+
+
+
+
+---
 
 Steps to Install
 
 1. Clone the repository:
+
 git clone https://github.com/Diveinprogramming/sfupu-trading-bot.git
 
 
 2. Navigate to the bot directory:
+
 cd sfupu-trading-bot
 
 
 3. Install dependencies:
-npm install dotenv axios @solana/web3.js selenium-webdriver
+
+npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver nodemailer fs bs58 blessed blessed-contrib
 
 
 4. Set up environment variables:
-Rename .env.example to .env and update your wallet path and trading preferences.
+Rename .env.example to .env and configure:
+
+SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json  
+MINIMUM_BUY_AMOUNT=0.015  
+MAX_BONDING_CURVE_PROGRESS=10  
+SELL_BONDING_CURVE_PROGRESS=15
 
 
-5. Start the bot:
+5. Configure Solana CLI:
+
+solana config set --url https://api.mainnet-beta.solana.com  
+solana config set --keypair /path/to/your/solana/wallet.json
+
+
+6. Start the bot:
+
 node main.mjs
 
 
@@ -79,6 +160,43 @@ node main.mjs
 
 ---
 
-Educational Use and Disclaimer
+Main Commands
 
-Sfupu is designed as a learning tool to explore automated trading concepts on Solana. Trading cryptocurrencies carries significant risks, and Sfupu is provided as-is without any guarantees. Always conduct research before trading, and consider using the bot in a simulated environment before making real trades.
+Start Trading:
+
+node main.mjs
+
+Sell All Tokens:
+
+node sell.js
+
+
+
+---
+
+How to Contribute
+
+Sfupu thrives on community collaboration. Here’s how you can help:
+
+Report Issues: Found a bug or have suggestions? Share them in the issues tab.
+
+Submit Code: Developers can fork the repository and enhance Sfupu through pull requests.
+
+Spread the Word: Share Sfupu with fellow traders and developers to grow the community.
+
+
+Every contribution helps improve Solana automated trading tools.
+
+
+---
+
+Keywords
+
+Solana Pump Fun Sniper | Pump Fun Trading Bot | Automated Token Sniper | Solana Liquidity Sniper | Free Solana Trading Bot | Pump.fun Sniper Bot | Solana Blockchain Trading Tool | Token Sniping Bot | Profit Automation Solana | Pump Fun Sniping Bot
+
+
+---
+
+Disclaimer
+
+Cryptocurrency trading involves significant risk. Use Sfupu responsibly and only trade what you can afford to lose. This bot is provided as-is, with no guarantees of profitability. Always conduct your own research before trading.
