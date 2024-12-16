@@ -2,7 +2,7 @@
 
 Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun tokens. Designed to excel on the Solana blockchain, Sfupu detects new liquidity pools, executes trades with precision, and optimizes profits using customizable strategies.
 
-!(sfupu.png)
+![.](logo.png)
 
 **Initial Buy:** The bot scrapes pump.fun to identify new token pairs with favorable bonding curves.
 
