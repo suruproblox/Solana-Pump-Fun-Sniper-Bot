@@ -72,23 +72,25 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 
 ## Installation
 
-# 1. Prerequisites
+## 1. Prerequisites
 
 1. Wallet: A Solana-compatible wallet (e.g., Phantom, Solflare) with SOL, USDC, or WSOL.
 
 
-2. Node.js: Install Node.js from nodejs.org.
+2. Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+   
+3. Solana CLI: Command-line interface for interacting with the Solana blockchain.
 
 
-3. Solana CLI: Ensure the Solana CLI is configured for blockchain interaction.
+4. Selenium WebDriver (Chrome): Automated web browser.
 
 
-4. SOL Balance: Keep at least 10x your trade amount in SOL to avoid transaction disruptions.
-
-
+5. SOL Balance: The ratio I suggest is 1:10, that is, for every 1 SOL you'll use per trade, have 10 SOL in the wallet (so if you're using 0.1 SOL per trade, have 1 SOL in wallet. Just make sure you have more SOL for Faster Snipes)
 
 
 ---
+
 
 Steps to Install
 
