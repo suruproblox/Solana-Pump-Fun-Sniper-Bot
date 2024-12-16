@@ -6,6 +6,8 @@ Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun toke
 
 ## Why Choose Sfupu Pump Fun Sniper Bot?
 
+**The Original Pump Fun Sniper:** Sfupu is the ONLY Orginal Bot with low quality Imitators. Sfupu is the Original bot for Pump.fun tokens, designed for unmatched speed, reliability, and profitability. Beware of imitators offering unverified tools with slower performance.
+
 **Lightning-Fast Execution**: Outperform competitors with advanced liquidity pool detection and trade execution.
 
 **Customizable Strategies**: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
