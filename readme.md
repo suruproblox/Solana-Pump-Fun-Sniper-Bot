@@ -6,35 +6,35 @@ Sfupu is the ultimate Pump Fun Sniper Bot for automated trading on Pump.fun toke
 
 ## Why Choose Sfupu Pump Fun Sniper Bot?
 
-Lightning-Fast Execution: Outperform competitors with advanced liquidity pool detection and trade execution.
+**Lightning-Fast Execution**: Outperform competitors with advanced liquidity pool detection and trade execution.
 
-Customizable Strategies: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
+**Customizable Strategies**: Tailor profit-taking and stop-loss thresholds to align with your trading goals.
 
-Beginner-Friendly Setup: Quick and simple installation for users new to automated trading.
+**Beginner-Friendly Setup**: Quick and simple installation for users new to automated trading.
 
-Advanced Analytics: Bonding curve monitoring and market cap analysis for expert-level insights.
+**Advanced Analytics**: Bonding curve monitoring and market cap analysis for expert-level insights.
 
-Completely Free: No hidden fees or charges—profits are 100% yours.
+**Completely Free**: No hidden fees or charges—profits are 100% yours.
 
-Community-Driven Development: An open-source model ensures transparency, regular updates, and ongoing improvements from the community.
+**Community-Driven Development**: An open-source model ensures transparency, regular updates, and ongoing improvements from the community.
 
 
 Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun token opportunities.
 
+
 ---
+
 
 # Key Features:
 
-Token Sniping: Automatically detects and buys new Pump.fun tokens with favorable bonding curves.
+**Profit Targets:** The bot aims to take profit at a 25% increase and then again at another 25% increase.
+It sells 50% of the tokens at the first 25% increase and 75% of the remaining tokens at the next 25% increase.
 
-Profit-Taking: Customizable thresholds to sell at 25% and 50% profit levels.
+**Stop Loss:** The bot will sell all tokens if the market cap falls by 10%.
 
-Stop Loss: Protect investments with an automatic stop-loss at a 10% drop.
+**Bonding Curve:** The bot will sell 75% of the tokens if the bonding curve reaches a critical level and keep 25% as a moon bag.
 
-Moonbag Management: Keep a percentage of tokens for future gains after selling.
-
-Bonding Curve Logic: Tracks market cap and bonding curve progress for strategic decision-making.
-
+**Timing:** The bot resets the timer if the price goes up and monitors the trade for a set period, adjusting its actions based on market conditions.
 
 Unlike other bots, Sfupu is continuously updated for speed, reliability, and profitability. As a 100% free and open-source bot, it encourages collaboration to shape the future of Solana token trading.
 
