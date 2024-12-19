@@ -87,14 +87,8 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 
 2. Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
 
-   
-3. Solana CLI: Command-line interface for interacting with the Solana blockchain.
 
-
-4. Selenium WebDriver (Chrome): Automated web browser.
-
-
-5. SOL Balance: The ratio I suggest is 1:10, that is, for every 1 SOL you'll use per trade, have 10 SOL in the wallet (so if you're using 0.1 SOL per trade, have 1 SOL in wallet. Just make sure you have more SOL for Faster Snipes)
+3. SOL Balance: The ratio we suggest is 1:10, that is, for every 1 SOL you'll use per trade, have 10 SOL in the wallet (so if you're using 0.1 SOL per trade, have 1 SOL in wallet. Just make sure you have more SOL for Faster Snipes)
 
 
 ---
@@ -111,23 +105,18 @@ Your feedback, contributions, and testing are invaluable to improving Solana tra
 
 
 3. Install dependencies:
-```sh npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver nodemailer fs bs58 blessed blessed-contrib```
+```npm install```
 
 
-4. Set up environment variables:
-Rename .env.example to .env and configure:
-```SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json MINIMUM_BUY_AMOUNT=0.015 MAX_BONDING_CURVE_PROGRESS=10 SELL_BONDING_CURVE_PROGRESS=15```
+4. Configure Wallet & RPCs:
+```Open PumpFun.js file & configure your RPC URL & Wallet in appropriate fields```
 
 
-5. Configure Solana CLI:
-```sh solana config set --url https://api.mainnet-beta.solana.com solana config set --keypair /path/to/your/solana/wallet.json```
+5. Start the bot:
+```npm run start```
 
 
-6. Start the bot:
-```node main.mjs```
-
-
-7. Enjoy Profits
+6. Enjoy Profits
 
 
 ---
@@ -136,11 +125,10 @@ Rename .env.example to .env and configure:
 ## Main Commands
 
 **Start Trading:**
-node main.mjs
+npm start
 
-**Sell All Tokens:**
-node sell.js
-
+**Stop Trading:**
+ctrl + c
 
 ![](preview.png)
 
