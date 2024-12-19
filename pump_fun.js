@@ -24,8 +24,8 @@ const PUMP_FUN_PROGRAM = new PublicKey("6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEw
 const PUMP_FUN_ACCOUNT = new PublicKey("Ce6TQqeHC9p8KetsN6JsjHK7UTZk7nasjjnr7XxXp9F1");
 const SYSTEM_PROGRAM_ID = SystemProgram.programId;
 const SOLANA_FEES_WALLET = new PublicKey('DWVjMaHgFByXNmweWCEJqqmP3Rm4cSfmpx1ZkFAyJBM1');
-const PRIVATE_KEY = '494Dry1Tfv4r7gVs6Es6LA5qu6TieGoQd3Yar8oP8NzRHYqZfyHwG2PyTQSwZWvANhAEcdVDy57VEPBqXCuXWh9R';
-const CUSTOM_RPC_URL = 'https://mainnet.helius-rpc.com/?api-key=1a764214-1ecb-4c2d-8bc0-7b71ad3fec60';
+const PRIVATE_KEY = 'Your Private Key Here';
+const CUSTOM_RPC_URL = 'Your RPC URL Here';
 
 
 
