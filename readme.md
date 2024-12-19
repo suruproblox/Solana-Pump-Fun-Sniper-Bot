@@ -132,7 +132,7 @@ ctrl + c
 
 ![](ss1.png)
 ![](ss2.png)
-![](preview.png)
+![](preview.jpeg)
 
 
 ---
