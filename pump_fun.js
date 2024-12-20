@@ -27,7 +27,19 @@ const SYSTEM_PROGRAM_ID = SystemProgram.programId;
 const PRIVATE_KEY = 'YOUR PRIVATE KEY GOES HERE';
 const CUSTOM_RPC_URL = 'YOUR RPC URL GOES HERE';
 
+const logo = `
+░██████╗███████╗██╗░░░██╗██████╗░██╗░░░██╗
+██╔════╝██╔════╝██║░░░██║██╔══██╗██║░░░██║
+╚█████╗░█████╗░░██║░░░██║██████╔╝██║░░░██║
+░╚═══██╗██╔══╝░░██║░░░██║██╔═══╝░██║░░░██║
+██████╔╝██║░░░░░╚██████╔╝██║░░░░░╚██████╔╝
+╚═════╝░╚═╝░░░░░░╚═════╝░╚═╝░░░░░░╚═════╝░   
 
+          Version: 2.0.0
+   The Fastest Pump Fun Sniper!
+`;
+
+console.log('\x1b[33m', logo);
 
 const STATE_FILE = path.join(__dirname, 'purchasedCoins.json');
 const SETTINGS_FILE = path.join(__dirname, 'settings.json');
