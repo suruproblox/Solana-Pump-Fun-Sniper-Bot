@@ -35,6 +35,9 @@ Sfupu is optimized to reduce risks while helping traders capitalize on Pump.fun 
 ![](ui.png)
 
 
+![](ss1.jpg)
+
+
 ---
 
 
@@ -130,7 +133,6 @@ npm start
 **Stop Trading:**
 ctrl + c
 
-![](ss1.jpg)
 ![](ss2.jpg)
 ![](preview.jpg)
 
