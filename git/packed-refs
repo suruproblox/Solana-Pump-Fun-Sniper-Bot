@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+8cb7f68d9a12560d3c2b64acc6266397ce5888e6 refs/remotes/origin/main
+85f993fd0b1a4979bb06df317ddbd6036f41802d refs/remotes/origin/testing
+df915fefcb89d4410542fcba89e13cc652ad9d56 refs/tags/Download-Now!
+2a223ff43efd799740981e40909d8f97f4d73289 refs/tags/Free
+f109e2a369eb54cc2ccc0d5df657acda3174f108 refs/tags/Update
