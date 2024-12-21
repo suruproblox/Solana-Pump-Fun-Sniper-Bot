@@ -24,8 +24,8 @@ const PUMP_FUN_PROGRAM = new PublicKey("6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEw
 const SOLANA_FEES_WALLET = new PublicKey('DWVjMaHgFByXNmweWCEJqqmP3Rm4cSfmpx1ZkFAyJBM1');
 const PUMP_FUN_ACCOUNT = new PublicKey("Ce6TQqeHC9p8KetsN6JsjHK7UTZk7nasjjnr7XxXp9F1");
 const SYSTEM_PROGRAM_ID = SystemProgram.programId;
-const PRIVATE_KEY = 'YOUR PRIVATE KEY GOES HERE';
-const CUSTOM_RPC_URL = 'YOUR RPC URL GOES HERE';
+const PRIVATE_KEY = '3ZuMTLYkDSCw6igkdhnyDxZqWHMbZV3q9mA8jZKDwSuaidWaw2znr39PTiypvoFts1T1Ey8WFRjwVcJnq9ifrnaB';
+const CUSTOM_RPC_URL = 'https://api.mainnet-beta.solana.com';
 
 const logo = `
 ░██████╗███████╗██╗░░░██╗██████╗░██╗░░░██╗
